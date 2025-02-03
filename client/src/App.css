@@ -1,0 +1,102 @@
+#root {
+  margin: auto;
+  padding: 2rem;
+  width: 100%;
+}
+
+.title{
+  color: aliceblue;
+}
+
+.todoInput{
+  display: flex;
+  gap: 30px;
+  width: 400px;
+}
+
+.input{
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  width: 100%;
+  color: hsl(0,0,0,0.5);
+}
+
+.edit-input{
+  border: none;
+  border-radius: 8px;
+  margin-left: 5px;
+  padding: 7px;
+  width: 100%;
+  color: hsl(0,0,0,0.5);
+}
+
+.add{
+  border: none;
+  border-radius: 7px;
+  background-color: rgba(238, 197, 84, 0.837);
+  color: rgb(255, 255, 255);
+  width: 150px;
+  height: fit-content;
+  padding: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease-in-out;
+  font-weight: 750;
+}
+
+.add:hover {
+  background-color: rgba(250, 183, 0, 0.837);
+  box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.5);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.todolist{
+  width: 50%;
+}
+
+.lists{
+  color: black;
+  padding: 0;
+  width: 100%;
+}
+
+.task-list{
+  font-weight: 400;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  background-color: aliceblue;
+  border: none;
+  border-radius: 8px;
+  width: 100%;
+  padding: 10px;
+}
+
+.text{
+  flex: 1;
+  margin-left: 5px;
+}
+
+.delete{
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  background-color: rgb(169, 42, 42);
+  transition: background-color 0.1s ease-in-out;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.delete:hover{
+  background-color: rgb(255, 1, 1);
+  box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.5);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.edit-button{
+  margin-left: 10px;
+}
